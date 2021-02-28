@@ -22,7 +22,7 @@ PartTreble = \relative c' {
   
   \time 6/8 \tempo 4=110
   q8 q d16 e         <f c>8 q f16 g |
-  <e c>8 q d16 c     \acciaccatura c d8. r16 a c   |%9
+  <e c>8 q d16 c     c16 d8 r16 a c |%9
   <a d>8 q d16 e     <f c>8 q f16 g |
   <e c>8 q d16 c     d4 a16 c       |%11
   <a d>8 q d16 f     <g d>8 q g16 a |
@@ -30,7 +30,7 @@ PartTreble = \relative c' {
   <f d>8 q g         a16 d,8 r16 d f|
   e8 e f16 d         e4 a16 c       |%15
   <a d>8 q d16 e     <f c>8 q f16 g |
-  <e c>8 q d16 c     \acciaccatura c d8. r16 a c   |%17
+  <e c>8 q d16 c     c16 d8 r16 a c |%17
   <bes d>8 q d16 e   <f c>8 q f16 g |
   <e c>8 q d16 c     d4 a16 c       |%19
   <d a>8 q d16 f     <g d>8 q g16 a |
@@ -95,7 +95,7 @@ PartTreble = \relative c' {
   \key d \minor \time 6/8 \tempo 4=110
   \repeat volta 2 {   
     <a d>8 q d16 e     <f c>8 q f16 g |
-    <e c>8 q d16 c     \acciaccatura c d8. r16 a c   |%60%17
+    <e c>8 q d16 c     c16 d8 r16 a c |%60%17
     <bes d>8 q d16 e   <f c>8 q f16 g |
     <e c>8 q d16 c     d4 a16 c       |%62%19 
     <d a>8 q d16 f     <g d>8 q g16 a |

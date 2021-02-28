@@ -47,9 +47,10 @@ rootnotes = {
   d  s s g s^"m" s | a s^"7" s d4 a8 |%49 
 
   \key a \minor  %\time 4/4
-  \repeat unfold 7 {
-    d2 d
-  }| d4 d d d |%57
+  \repeat unfold 8 {
+    d4 
+  } | %51
+  | d1~d d~d d~d~ |%57
   d4 r4 r2 |%58
   \key d \minor
   % R1 |%58
@@ -74,7 +75,7 @@ rootnotes = {
   d8. d        d d16 d d    |%74
   a8. a        d8 r16 d d d |
   d8. d16 d d  g8. g16 g g  |%76
-  f8. f        c  d16 d d   |
+  f8. f        c   c16 c c  |
   g8. g16 g g  d8. d16 d d  |%78
   a8. a        d8 r16 d d d |
   d8. d16 d d  g8. g16 g g  |%80
