@@ -4,13 +4,13 @@ PartTreble = \relative c' {
   \time 4/4
   \tempo 4=60
   \partial 4
-  e8 g |%0
+  e8-1 g-2 |%0
   <<
-    {a2~a4 a8 c | d2~d4 r}\\
-    {f,4 e d r | f e \acciaccatura {f16 e} d4. e8}
+    {a2-3~a4 a8-3 c-4 | d2-5~d4 r}\\
+    {f,4-1 e d r | f e \acciaccatura {f16 e} d4. e8}
   >>
   <<{f2 g\fermata}\\{bes,1}>> |%3
-  \tag #'layout \acciaccatura{c16 cis}
+  \tag #'layout \acciaccatura{c16_2 cis_3}
   
   \tempo 4=140
   \repeat unfold 3 {
@@ -18,17 +18,17 @@ PartTreble = \relative c' {
     \tuplet 3/2 {q8 q q} 
   } |
   \repeat unfold 3 {q8. q16}
-  \tuplet 3/2 {q8 a c} |%7
+  \tuplet 3/2 {<a_1 d_3>8 a_1 c_2} |%7
   
   \time 6/8 \tempo 4=110
-  q8 q d16 e         <f c>8 q f16 g |
-  <e c>8 q d16 c     c16 d8 r16 a c |%9
+  q8 q d16-3 e-4     <f-5 c-1>8 q-4 f16-4 g-5 |
+  <e c>8 q d16 c_1   c16_2 d8_3 r16 a c |%9
   <a d>8 q d16 e     <f c>8 q f16 g |
   <e c>8 q d16 c     d4 a16 c       |%11
-  <a d>8 q d16 f     <g d>8 q g16 a |
-  <bes d,>8 q a16 g  a d,8 r16 d e  |%13
-  <f d>8 q g         a16 d,8 r16 d f|
-  e8 e f16 d         e4 a16 c       |%15
+  <a d>8 q d16 f     <g-5 d>8 q-2 g16 a |
+  <bes-4 d,>8 q a16-4 g-3  a-4 d,8 r16 d_1 e_2  |%13
+  <f d>8 q g         a16-5 d,8 r16 d f|
+  e8 e f16_3 d_1     e4_2 a16 c     |%15
   <a d>8 q d16 e     <f c>8 q f16 g |
   <e c>8 q d16 c     c16 d8 r16 a c |%17
   <bes d>8 q d16 e   <f c>8 q f16 g |
@@ -36,12 +36,12 @@ PartTreble = \relative c' {
   <d a>8 q d16 f     <g d>8 q g16 a |
   <bes d,>8 q a16 g  a d,8 r16 d e  |%21 
   <f d>8 q g         a16 d,8 r16 d f|
-  e8 e f16 e         d8 r  f16 g    |%23
+  e8 e f16 e         d8 r  f16-2 g-3|%23
   
   <a d,>8 q q  <bes d,>16 <a d,>8 r8. |
-  <g c,>8 q q  q16 <a d,>8 r8.        |%25
+  <g^2 c,^1>8 q q  q16 <a^3 d,^1>8 r8.|%25
   <a d,>8 q q  <bes d,>16 <a d,>8 r8. |
-  g8 f e d r f16 g                    |%27
+  g8-4 f e d-1 r f16 g                |%27
   <a d,>8 q q  <bes d,>16 <a d,>8 r8. |
   <g c,>8 q q  q16 <a d,>8 r8.        |%29
   <a d,>8 q q  <bes d,>16 <a d,>8 r8. |
@@ -69,9 +69,9 @@ PartTreble = \relative c' {
   f g a           g4\prall f16 g  |%43
   a8. g16 f8        e (f e\prall) |
   d8. e16 c8         d4 d'16 e    |%45
-  f8. e16 f8   \acciaccatura{fis16} g8 (f g)|
-  a8 g\prall f       d4 d16 e     |%47
-  f8 g a             bes d, g     |
+  f8.-3 e16 f8-1   \acciaccatura{fis16} g8 (f g)|
+  a8 g\prall f       d4-1 d16 e   |%47
+  f8-1 g a           bes d,-1 g   |
   f8.\prall g16 e8   d8. e16 cis8 |%49
 
   \key a \minor \time 4/4 \tempo 4=140 
@@ -87,7 +87,7 @@ PartTreble = \relative c' {
   c8. c16 b g8. a d,16 a'4\accent |%55
   \acciaccatura{a16 b}
   c8. c16 b d8. a c16 b g8. |
-  c8. c16 \tuplet 3/2 {b8 g' f} \tuplet 3/2 {a f g} \tuplet 3/2 {f e c}|%57
+  c8. c16-2 \tuplet 3/2 {b8-1 g'-5 f-4} \tuplet 3/2 {a-5 f-4 g-5} \tuplet 3/2 {f e c}|%57
   % c8. c16 \tuplet 9/8{b16 g' f a f g f e c} d4|%57
   d4 r4 r4 r8 a16 c |
   % r2 r4 r8 a16 c |
@@ -122,12 +122,12 @@ PartTreble = \relative c' {
   e8 f e             e16 d8 d16 e f      |
   <a d,>8. d,16 e f  <bes d,>8. d,16 e f |%80
   <a c,>8 q q        q16 <g c,>8 r8.     |
-  a,,8 b cis d e f        |%82
-  g gis a b c cis         |
-  d e f fis g gis         |%84
+  a,,8_1 b cis d_1 e f    |%82
+  g_1 gis a_1 b c cis     |
+  d-1 e f fis g gis       |%84
   <a d,>4 r8 <bes d,>4 r8 |
-  r8 \acciaccatura{gis16} a8 g f f16 e d r |
-  r8 g, f f f16 e d8~ d2\fermata r4|
+  r8 \acciaccatura{gis16} a8-4 g f-2 f16-3 e d r |
+  r8 g,-4 f f f16 e d8~ d2\fermata r4|
   \tag #'midi \grace{d16 f a d}
   <d, f a d>4\arpeggio r2|
 }
